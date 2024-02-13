@@ -14,7 +14,7 @@ const ProjectsCard = (data: { url: string, img: string, github: string, title: s
                 <h2 className=' tracking-wide font-medium teamber-300 text-4xl'>{data.title}</h2>
                 <p className='mt-4 leading-loose'>{data.text}</p>
                 <div>
-                    {data.techStack.map((technology, index) => {
+                    {data.techStack.map((technology) => {
                         return <span className="bg-blue-100 text-blue-800 text-s font-large me-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-blue-400 border border-blue-400">{technology}</span>
                     })}
                 </div>
