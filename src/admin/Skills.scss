@@ -1,0 +1,33 @@
+.container {
+
+    width: 80vw;
+    margin: auto;
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .table-div {
+        min-width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+
+    .form-div {
+        max-width: 24rem;
+        margin: auto;
+        margin-top: 4rem;
+
+        h2 {
+            font-size: 1.6rem;
+        }
+
+        .radio-input-div {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}
+img {
+    height: 3rem;
+}

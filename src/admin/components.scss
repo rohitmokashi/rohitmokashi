@@ -1,0 +1,117 @@
+form {
+
+    div {
+        margin-bottom: 1.25rem;
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            font-weight: 500;
+            color: #111827;
+        }
+
+        input[type="text"], textarea {
+            display: block;
+            padding: 0.625rem;
+            border-radius: 0.5rem;
+            border: 1px solid #D1D5DB;
+            width: 100%;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            color: #111827;
+            background-color: #F9FAFB;
+
+            :focus, :active {
+                border: none;
+            }
+        }
+
+
+        input[type="file"] {
+            display: inline-block;
+            // padding: 0.625rem;
+            border: 1px solid #D1D5DB;
+            border-radius: 0.5rem;
+            width: 100%;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            color: #111827;
+            background-color: #F9FAFB;
+            cursor: pointer;
+        }
+
+        input[type="file"]::file-selector-button {
+            border: none;
+            padding: 0.625rem;
+            background-color: #9b9b9b;
+            transition: 1s;
+        }
+    }
+
+    button {
+        padding: 0.625rem 1.25rem;
+        border-radius: 0.5rem;
+        border-style: none;
+        width: 30%;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        text-align: center;
+        color: #ffffff;
+        background-color: #1D4ED8;
+
+        :hover {
+            background-color: #1E40AF;
+        }
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    thead {
+        text-transform: uppercase;
+
+        tr {
+            letter-spacing: 0.05em;
+            line-height: 1rem;
+            text-align: left;
+            color: #3B82F6;
+            border-bottom: 2px solid #D1D5DB;
+
+            th {
+                padding: 0.75rem 1.5rem;
+            }
+        }
+
+    }
+
+    tbody {
+        tr {
+            text-align: left;
+
+            td {
+                padding: 1rem 1.5rem;
+                border-bottom: 1px solid #6B7280;
+                font-size: 1;
+                line-height: 1.25rem;
+                color: #1E3A8A;
+
+                a {
+                    font-weight: 500;
+                    color: #2563EB;
+
+                    :hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
